@@ -49,7 +49,7 @@
 
 <body>
     <div class="container">
-        <?php include '../header.php'; ?>
+        <?php include '../header.php'; ?> 
         <div class="body">
         <section>
             <div class="row d-flex align-items-center justify-content-center">

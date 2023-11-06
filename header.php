@@ -1,13 +1,13 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light ct-header">
         <a class="navbar-brand" href="index.php">
-            <img class="logo" width="150px" height="80px" src="./assets/img/logo.png" alt="logo">
+            <img class="logo" width="150px" height="80px" src="../assets/img/logo.png" alt="logo">
         </a>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="../index.php">
                         <button class="btn btn-outline-secondary ct-font">Trang Chủ</button>
                     </a>
                 </li>
@@ -17,7 +17,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="../view/DanhSachCacKhoanChiTieu.php">
                         <button class="btn btn-outline-secondary ct-font">
                             Quản Lý Thu Chi
                         </button>
@@ -46,7 +46,7 @@
         </div>
         <div class="user">
             <div class="avt">
-                <img src="./assets/img/noimg.jpg" alt="logo">
+                <img src="../assets/img/noimg.jpg" alt="logo">
             </div>
             <div class="ct-name">
                 <p> Người dùng</p>
