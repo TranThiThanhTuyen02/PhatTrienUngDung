@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Bookish;
+}
+body {
+  background-color: #dbf0ff;
+}
+.main-title {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 20px;
+}
+.main-title h4 {
+  border-radius: 30px;
+  width: 600px;
+}
+.container {
+  margin-top: 40px;
+}
+
+.form-container {
+  float: left;
+  position: relative;
+  width: 35%;
+  font-size: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  animation: slide-in 0.5s forwards;
+}
+
+.form-container label {
+  display: contents;
+  margin-top: 0px;
+  opacity: 1;
+  color: rgb(7, 7, 144);
+}
+
+.form-container button {
+  border-radius: 0.5rem;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.4s;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.chart-container {
+  float: right;
+  width: 60%;
+  background-color: white;
+  padding-left: 15px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+#chart {
+  height: 300px;
+  width: 600px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.summary-container {
+  clear: both;
+  margin-top: 50px;
+}
+
+.summary {
+  margin-top: 20px;
+}
